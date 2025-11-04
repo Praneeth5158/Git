@@ -1,0 +1,9 @@
+# Set your global Git username and email
+git config --global user.name="praneeth"
+git config --global user.email="praneethyamanuri@gmail.com"
+  when we enter the above commands then the git and git hub can able to communicate 
+
+
+# To view or edit the configuration file and check your details
+git config --global -e
+# This command opens the global configuration file showing your name and email settings.

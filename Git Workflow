@@ -1,0 +1,26 @@
+# cloning ayyakaa manam edainaa file loo changes chestey (for example : oka folder lo one html file , one logo, one photo vuntey manam html files lo maatramey changes chestey) appudu 
+# below command type chestey adi daani status chupistundi means manam ey file ayinaa edit chestey adi aa file name change chesaaru ani choopistundi (red colour loo )
+git status
+
+#ippudu manam edit maatramey chesaam aa details commit avvali antey we need to enter the below command . ee command use chestey modified ani chupistundi (green colour loo)
+git add editted_file_name
+
+
+# ippudu deeni taruvatha staging area nunchi local repository ki vellali antey manam danni commit cheyyali below command use chesi ilaa chestey mottam manam enni lines edit chesaam enni 
+#lines delete chesaam ani choopistundi
+git commit -m "type your message here"
+
+
+
+
+## 🔄 Git Workflow
+
+| **Step** | **Area** | **Command** | **Action Description** |
+|-----------|-----------|--------------|--------------------------|
+| 1️⃣ | Working Directory | `git add <file>` or `git add .` | Add changes from the working directory to the staging area |
+| 2️⃣ | Staging Area | `git commit -m "message"` | Commit staged changes to the local repository (.git folder) |
+| 3️⃣ | Local Repository (.git) | `git push origin main` | Push committed changes from local to remote repository |
+| 4️⃣ | Remote Repository (GitHub) | — | Changes are now stored in GitHub and visible online |
+
+✅ **Flow:**  
+**Working Directory → Staging Area → Local Repository → Remote Repository (GitHub)**

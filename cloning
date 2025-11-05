@@ -1,0 +1,30 @@
+➡️ cd = move into a directory
+➡️ mkdir = make a new directory
+➡️ git clone = copy a remote repo locally
+➡️ ls / ls -al = show files (normal / hidden)
+
+
+#cd means change directory antey manam ekkada vunna aa place ki change avvali ani cheptundi
+cd destination_name
+
+# this will make the directory means create a folder 
+mkdir folder_name
+
+
+#after selecting the destination file then clone with this below command
+git clone https://github.com/Praneeth5158/Git.git
+
+#now you want to see the files inside that particular folder menas ls(list)
+ls
+
+#if you want to see including hidden files means 
+ls -al
+
+
+| Command                | Meaning                                                                                  | Example                                             |
+| ---------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| `cd destination_name`  | Changes the current working directory                                                    | `cd Documents`                                      |
+| `mkdir folder_name`    | Creates a new folder                                                                     | `mkdir myproject`                                   |
+| `git clone <repo_url>` | Clones a GitHub repository into your system                                              | `git clone https://github.com/Praneeth5158/Git.git` |
+| `ls`                   | Lists all files and folders in the current directory                                     | `ls`                                                |
+| `ls -al`               | Lists all files **including hidden ones** (those starting with `.`) in **detailed view** | `ls -al`                                            |

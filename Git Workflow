@@ -11,6 +11,17 @@ git add editted_file_name
 git commit -m "type your message here"
 
 
+#commit chesaakaa github ki  push cheyyaali adi ekkadiki cheyyali antey server ki by default gaa oka name vuntundi adey origin and branch name master
+git push origin master
+
+
+##THE steps are 
+git clone <repo_url>
+cd project-folder
+git status
+git add .
+git commit -m "Added new feature"
+git push
 
 
 ## 🔄 Git Workflow

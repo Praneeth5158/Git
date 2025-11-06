@@ -1,0 +1,30 @@
+👉 ## Steps to Upload Local Project to GitHub Repository
+
+## Below process anthaa manam mana local computer loo vunaa project (files) git hub loki elaa send cheyyali anedi.
+
+
+# first we need to keep our project path in git bash
+# then we need to enter the below command this will inititalize the git in our project 
+# after the below command we can see the .git file in our project folder and in the bash we can see the branch as MASTER
+git init
+
+
+# now we need to enter git status then it will show all files names in our folder in red in colour which means we didn't add that files so for that we need to enter the below command
+git add . (this will add the all files in the folder)
+
+
+# after that we need to commit the above files
+git commit -m "our message"
+
+
+# intaka mundu manam direct push chesaam kaani ippudu manam repository loki project pamputunaam kaabatti manaki aa server ekkada vundoo teliyaali for that we are using below command 
+git remote add origin https://github.com/Praneeth5158/sample-for-git-practice.git     ( this link we can find at the repository )
+
+
+# after that just push is pending 
+git push origin master
+
+
+
+✅ Final Output:
+Your project will now appear in your GitHub repository.

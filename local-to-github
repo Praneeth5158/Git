@@ -28,3 +28,14 @@ git push origin master
 
 ✅ Final Output:
 Your project will now appear in your GitHub repository.
+
+
+# All steps
+
+git init
+git status
+git add .
+git commit -m "your message"
+git remote add origin https://github.com/Praneeth5158/sample-for-git-practice.git
+git push origin master
+

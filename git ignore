@@ -1,0 +1,20 @@
+## suppose konni saarly pedda projects loo oka 100,200 files neeku vaddu anukoo appudu nuvvu danni manual gaa delete cheyyali 
+## kaani in that situation in git we have ".gitignore"
+# how to add files in the git ignore 
+# first manam git bash loo mana project path deggara pettali and after that 
+# in git bash enter the below command this will create git ignore file
+
+ npp .gitignore  ( i kept notepad plus as my default editor or else we can also do " vi .gitignore " )
+
+# manaki ey files ayitey vadoo avvani aa editor loo type chestey chaalu that will not consider Git
+# If you want to check that you can check with "git status" command before the moving the file into ignore 
+# after moving that file you can see that status change that ignored will not visible 
+
+and in the editor you can also write 
+
+*.txt (this will ignore all the text files)
+*.js (this will ignore all the javascript files )
+!main.js (this will do except main.js means suppose in 100 js files you need only 1 js file means in that situation you can use "!file_name"
+folder_name/ (this will ignore the particular folder)
+
+you can see their status with git status command

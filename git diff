@@ -1,0 +1,13 @@
+# git diff           → shows changes made after last edit (before add)
+# git diff --staged  → shows changes that are added (after git add)
+# git diff --cached  → same as --staged
+
+# manam eppudu ayitey git init chesi evainaa files staged cycle ki add chesi git status chestey it will show 
+# that respective file name in green (staged) after that we need to change anything in that particular file 
+# after making the change now we can use the below command
+
+git diff 
+# it will shows the changed made by us 
+# and after  "git add" now with the help of below command we can see the updated added file 
+
+git diff --staged (or) git diff --cached

@@ -1,0 +1,10 @@
+#  git log = shows commit history (who committed, message, date, etc.
+git log
+
+git log -p ( shows commit history + changes (diffs) made in each commit ) 
+
+git log -2 ( shows latest 2 commits)
+git log -3 ( shows latest 3 commits)
+
+git log --pretty=oneline ( this shows each commits in one line )
+git log --pretty=short ( this shows information in short like author name, commit message)

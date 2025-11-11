@@ -1,0 +1,14 @@
+# ippudu mana manager oka work cheppadu enti antey nuvvu urgent gaa ee file loo mail wrong vundi danni edit chey 
+# appudu manam oka kotta branch create chesi danni mana main branch ki merge chestaam
+# (NOTE : eppudainaa changes cheyyali antey manam kachitangaa branches create cheyyali main brach loo direct gaa changes cheyyakoodadu)
+# at the time of merging make sure that you're in that master branch or not if not checkout to master branch
+# and before merging type the below command you can see the content in that particular file
+
+cat file_name ( this will show the contents in that particular file ) 
+# manam merge chayyakamunndu chesinataruvaataa aa file edit ayyindoo ledoo ee above command dwara check cheyyochu
+
+# now for merging the command is 
+
+git merge branchname
+
+# after the merging now we type the "cat file_name" we can see the change what we didnt saw before merging

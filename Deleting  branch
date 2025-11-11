@@ -1,0 +1,4 @@
+# ippudu manam merging cheyyakamundu manam oka brach create chesi anduloo changes chesi malli main branch ki commit chestaam gaa
+# Means all our new code is in main branch so no need the new branch for that we can delete the branch with the below command
+
+git branch -d branch_name

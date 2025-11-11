@@ -1,0 +1,12 @@
+# manam eppudainaa group project cehseytappudu okkokaru okko task chestuntaaru daani kosam manam branches ni use chestaam
+# the master branch always points to the latest commit in our main code
+# eppudainaa manam status check cehsinaa ledaa log check chesinaa "head -> master" ani choopistundi means you're current in the master branch
+# below command use chesi manam branch ni create chestaam
+
+git branch branchname
+
+# and branch create chesaakaa nuvvu aa branch ki move avvali antey below command use cheyyali
+
+git checkout branchname
+
+# after the above command now you check the "git log --oneline" you can able to see the head denotes to that particular branch name (head -> branchname)

@@ -1,0 +1,14 @@
+# eppudainaa manam branch ni main branch ki merge chestey
+# rendu branches lo okkate line loo different changes vuntey Git confuse aipothundi
+# aa situation ni merge conflict antaru
+
+# example: main branch loo same line edit chesavu
+# feature branch loo kooda ade line edit chesavu
+# merge cheste Git ki evaru correcto teliyadu and conflict create chestundi
+
+# conflict vasthey code loo <<< === >>> ani markers chupistundi
+# manam manual ga ede correct version fix chesi save cheyyali
+
+# conflicts resolve chesaka below command use chesi merge complete cheyyali
+git add .
+git commit

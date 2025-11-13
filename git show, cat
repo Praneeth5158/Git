@@ -1,0 +1,21 @@
+# Git cat 
+
+
+# cat ane command normal Linux/Windows/Git Bash command
+# file yokka content ni terminal loo chupistundi
+# example:
+cat filename.txt
+
+# antey aa text file loo unna content motham screen meeda display avutundi
+=======================================================================================================
+=======================================================================================================
+# Git show 
+
+# git show ane command, particular commit loo enti changes jarigayo chupistundi
+# antey oka commit yoka details: message, author, and code changes
+
+# example:
+git show commit_id
+
+# commit ID place loo first few letters petina saripothundi
+# git show nundi manam oka file yoka changes, added lines, removed lines ny choodachu

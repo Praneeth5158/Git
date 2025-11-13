@@ -1,0 +1,18 @@
+# eppudainaa manaki konni git commands chala lengthy ga vuntayi
+# vatini thondaraga type cheyyadaaniki manam short names create cheskovachu
+# ee short names ni git aliases antaru
+
+# example: git status command chala lengthy
+# so manam 'git st' ani short alias create cheyyachu
+
+git config --global alias.st status
+
+# ippudu 'git status' place loo simple ga
+git st
+# ani type chesina saripothundi
+
+# inka example:
+git config --global alias.cm "commit -m"
+
+# ippudu commit cheyyali antey:
+git cm "your message here"

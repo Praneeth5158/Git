@@ -1,0 +1,13 @@
+# git stash ente manam files lo changes chesina incomplete work ni temporary ga save cheskodaniki use chestaru
+# antey commit cheyyakunda work safe ga side ki pettadam
+
+git stash
+
+# stains anni save ayyayi ani choodali antey:
+git stash list
+
+# stash lo save chesina work malli back teesukovali antey:
+git stash apply
+
+# stash apply chesaka aa stash entry delete cheyyali antey:
+git stash drop

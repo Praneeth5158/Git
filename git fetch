@@ -1,0 +1,15 @@
+# suppose manam team project chestunnam and our teammates new commits push chesaru ( github loo new files add ayinappudu)
+# mana local system loo aa latest commits kanapadavu because we didn't download them yet
+# appudu below command use chestaam 
+git fetch origin
+
+
+# git fetch entantey remote repository nundi latest updates ni mana local system ki thechestundi
+# but NOTE: fetch only downloads the data, it will NOT merge into our branch automatically
+
+# fetch chesaka manam difference choodali antey:
+git log origin/main --oneline
+
+
+# fetch chesina changes ni mana current branch loo apply cheyyali antey manam manual ga merge cheyyali
+git merge origin/main

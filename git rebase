@@ -1,0 +1,11 @@
+# git rebase ente mana branch commits ni inko branch latest meeda re-arrange cheyyadam
+# result: history clean ga straight line laaga untundi without merge commits
+# example:
+git rebase main
+
+# git merge ente rendu branches ni kalupukuni oka merge commit create cheyyadam
+# result: history loo side branches + merge commit vastundi (little messy)
+
+# simple difference:
+# rebase → clean linear history
+# merge  → merge commit tho messy history

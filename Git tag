@@ -1,0 +1,11 @@
+# git tag ente mana project loo important commits ni mark cheyyadaniki use chestaru
+# antey releases, versions laga vati ki tag pettadam
+
+# new tag create cheyyali antey:
+git tag tagname
+
+# all tags choodali antey:
+git tag
+
+# particular commit ki tag pettaali antey:
+git tag tagname commit_id

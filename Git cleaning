@@ -1,0 +1,8 @@
+# git clean ente project loo untracked files (git track cheyyani files) ni remove cheyyadaniki use chestaru
+# antey unnecessary files, temporary files, build files ni clean cheyyadam
+
+# dry-run (delete ayyedi enti ani chupistundi but delete cheyyadu):
+git clean -n
+
+# actual ga untracked files ni delete cheyyali antey:
+git clean -f

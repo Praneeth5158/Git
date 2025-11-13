@@ -1,0 +1,19 @@
+# suppose manam team project chestunnam and our teammates already new commits push chesaru
+# mana local system loo aa latest code undadu because we didn't download or update yet
+# appudu manam git pull use chesthaam
+
+# git pull entantey: 
+# 1) remote repository nundi latest code ni fetch chestundi
+# 2) a fetched code ni mana current branch loo automatic ga merge chestundi
+
+# git pull = git fetch + git merge (both happen automatically)
+
+# example:
+git pull origin main
+
+# above command valla origin/main lo unna latest commits mana main branch ki direct ga apply avutayi
+# so we get updated code from our team without doing manual steps
+
+
+# antey fetch cehstey aa data vachi main brach loo stroe avutundi adi mana local loki raavaali antey merge cheyyali 
+# adey pull use chestey no need to merge direct gaa adey mana locla loki vastundi
